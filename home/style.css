@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../images/image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+nav{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.644), rgba(0, 0, 0, 0));
+}
+
+.logo{
+    display: flex;
+    color: rgb(228, 227, 227);
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.music{
+    margin: auto;
+}
+
+.icon{
+    width: 70px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links a{
+    color: rgb(228, 227, 227);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 18px;
+}
+
+a:hover{
+    color: white;
+}
+
+.log-in:hover{
+    color: rgb(40, 204, 103);
+}
+
+/* 3 vizat e menuse */
+.burger{
+    display: none;
+    cursor: pointer;
+}
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: rgb(228, 227, 227);
+    margin: 5px;
+}
+
+
+.play{
+    width: 100%;
+    text-align: center;
+}
+.play button{
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 50%;
+    font-size: 25px;
+    color: white;
+    width: 20vh;
+    height: 20vh;
+    transition: 500ms;
+}
+
+.play button:hover {
+
+    background-color: white;
+    color: black;
+}
